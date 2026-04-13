@@ -1,20 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div>
 
       {/* NAVBAR */}
       <nav className="navbar">
         <h2 className="logo">AMAN KUMAR RAI</h2>
-        <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#education">Education</a>
-          <a href="#contact">Contact</a>
+
+        {/* HAMBURGER */}
+        <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+          ☰
+        </div>
+
+        {/* NAV LINKS */}
+        <div className={`nav-links ${menuOpen ? "active" : ""}`}>
+          <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
+          <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+          <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
+          <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
+          <a href="#education" onClick={() => setMenuOpen(false)}>Education</a>
+          <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
           <a href="/Aman_Resume.pdf" target="_blank">View Resume</a>
           <a href="/Aman_Resume.pdf" download className="resume-btn">Download Resume</a>
