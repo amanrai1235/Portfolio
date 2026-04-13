@@ -15,6 +15,9 @@ function App() {
           <a href="#projects">Projects</a>
           <a href="#education">Education</a>
           <a href="#contact">Contact</a>
+
+          <a href="/Aman_Resume.pdf" target="_blank">View Resume</a>
+          <a href="/Aman_Resume.pdf" download className="resume-btn">Download Resume</a>
         </div>
       </nav>
 

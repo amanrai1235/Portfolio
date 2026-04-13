@@ -293,3 +293,18 @@ section {
   }
 
 }
+
+.resume-btn {
+  margin-left: 20px;
+  padding: 8px 16px;
+  background: #6c63ff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  transform: translateY(-2px);
+  background: #5848d8;
+}
