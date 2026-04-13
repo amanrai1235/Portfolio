@@ -39,7 +39,7 @@ function App() {
       Hi, I'm <span>Aman Kumar Rai</span>
     </h1>
 
-    <h2>Aspiring Software Developer 🚀</h2>
+    <h2>Aspiring Software Developer</h2>
 
     <p>
       I build modern, responsive and user-friendly web applications 
