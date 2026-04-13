@@ -117,8 +117,8 @@ function App() {
 
           <div className="edu-card">
             <h3>B.Tech CSE</h3>
-            <p>United College of Engineering & Research</p>
-            <span>CGPA: 7.10</span>
+            <p>United College of Engineering & Research, Prayagraj</p>
+            <span>CGPA: 7.10 (till 5th sem)</span>
           </div>
 
           <div className="edu-card">
