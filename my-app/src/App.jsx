@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,8 +32,8 @@ function App() {
 
       <div className="container">
 
-        {/* HERO */}
-        <section id="home" className="hero">
+{/* HERO */}
+<section id="home" className="hero">
 
   <div className="hero-left">
     <h1>
@@ -49,27 +50,46 @@ function App() {
     </p>
 
     <div className="hero-buttons">
-  <a href="#projects" className="btn primary">
-    View Projects
-  </a>
+      <a href="#projects" className="btn primary">
+        View Projects
+      </a>
 
-  <a href="/Aman_Resume.pdf" target="_blank" className="btn secondary">
-    Resume
-  </a>
+      <a
+        href="/Aman_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btn secondary"
+      >
+        Resume
+      </a>
 
-  <a
-    href="mailto:aman.kumar.rai1203@gmail.com"
-    className="btn secondary"
-  >
-    Contact Me
-  </a>
-</div>
+      <a
+        href="mailto:aman.kumar.rai1203@gmail.com"
+        className="btn secondary"
+      >
+        Contact Me
+      </a>
+    </div>
 
     <div className="hero-socials">
-      <a href="https://github.com/amanrai1235" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/aman-kumar-rai-b4019b315" target="_blank">LinkedIn</a>
+      <a
+        href="https://github.com/amanrai1235"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaGithub size={28} />
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/aman-kumar-rai-b4019b315"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaLinkedin size={28} />
+      </a>
     </div>
-  </div>
+
+  </div> {/* <-- Yeh missing tha */}
 
   <div className="hero-right">
     <img src="/aman.jpg" alt="Aman" />
