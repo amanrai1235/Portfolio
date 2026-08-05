@@ -39,17 +39,31 @@ function App() {
       Hi, I'm <span>Aman Kumar Rai</span>
     </h1>
 
-    <h2>Aspiring Software Developer</h2>
+    <h2>Aspiring Software Developer & Data Analyst</h2>
 
     <p>
-      I build modern, responsive and user-friendly web applications 
-      using React, JavaScript and clean UI design.
+      Passionate Computer Science undergraduate specializing in
+      full-stack web development, Python, and data analytics.
+      I enjoy building scalable applications, solving real-world
+      problems, and transforming data into meaningful insights.
     </p>
 
     <div className="hero-buttons">
-      <a href="#projects" className="btn primary">View Projects</a>
-      <a href="mailto:aman.kumar.rai1203@gmail.com" className="btn secondary">Hire Me</a>
-    </div>
+  <a href="#projects" className="btn primary">
+    View Projects
+  </a>
+
+  <a href="/Aman_Resume.pdf" target="_blank" className="btn secondary">
+    Resume
+  </a>
+
+  <a
+    href="mailto:aman.kumar.rai1203@gmail.com"
+    className="btn secondary"
+  >
+    Contact Me
+  </a>
+</div>
 
     <div className="hero-socials">
       <a href="https://github.com/amanrai1235" target="_blank">GitHub</a>
