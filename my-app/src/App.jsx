@@ -67,25 +67,67 @@ function App() {
         <section id="about">
           <h2>About Me</h2>
           <p>
-            Aspiring Software Developer with strong fundamentals in web development 
-            and programming. Passionate about building real-world projects 
-            and solving problems with clean code.
+            I am a Computer Science undergraduate who enjoys solving problems through technology and 
+            building applications that make everyday tasks simpler. Through academic projects and continuous learning, 
+            I have developed skills in programming, web development, and data handling. 
+            I am seeking an opportunity to work in a collaborative environment where 
+            I can learn, contribute, and grow into a skilled software engineer.
           </p>
         </section>
 
         {/* SKILLS */}
-        <section id="skills">
-          <h2>Skills</h2>
-          <div className="skills">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Python</span>
-            <span>Java</span>
-            <span>C</span>
-          </div>
-        </section>
+<section id="skills">
+  <h2>Technical Skills</h2>
+
+  <div className="skills-category">
+    <h3>Languages</h3>
+    <div className="skills">
+      <span>Python</span>
+      <span>Java</span>
+      <span>C</span>
+      <span>SQL</span>
+    </div>
+  </div>
+
+  <div className="skills-category">
+    <h3>Web Technologies</h3>
+    <div className="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>React.js</span>
+    </div>
+  </div>
+
+  <div className="skills-category">
+    <h3>Python Libraries</h3>
+    <div className="skills">
+      <span>Pandas</span>
+      <span>NumPy</span>
+      <span>OpenCV</span>
+      <span>Face Recognition</span>
+    </div>
+  </div>
+
+  <div className="skills-category">
+    <h3>Data Analytics</h3>
+    <div className="skills">
+      <span>Power BI</span>
+      <span>Excel</span>
+      <span>Data Visualization</span>
+    </div>
+  </div>
+
+  <div className="skills-category">
+    <h3>Core CS</h3>
+    <div className="skills">
+      <span>DBMS</span>
+      <span>Operating Systems</span>
+      <span>Computer Networks</span>
+      <span>OOP</span>
+    </div>
+  </div>
+</section>
 
         {/* PROJECTS */}
         <section id="projects">
@@ -109,6 +151,11 @@ function App() {
             <a href="https://price-comparison-tool-self.vercel.app/" target="_blank">Live</a>
           </div>
 
+          <div className="card">
+            <h3>Face Recognition Attendance System</h3>
+            <p>Offline attendance management using face recognition</p>
+          </div>
+
         </section>
 
         {/* EDUCATION */}
@@ -118,7 +165,7 @@ function App() {
           <div className="edu-card">
             <h3>B.Tech CSE</h3>
             <p>United College of Engineering & Research, Prayagraj</p>
-            <span>CGPA: 7.10 (till 5th sem)</span>
+            <span>CGPA: 7.20 (till 6th sem)</span>
           </div>
 
           <div className="edu-card">
