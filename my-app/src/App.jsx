@@ -55,7 +55,7 @@ function App() {
       </a>
 
       <a
-        href="/Aman_Resume.pdf"
+        href="/Aman_Kumar_Rai_resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="btn secondary"
