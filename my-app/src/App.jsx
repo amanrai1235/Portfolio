@@ -25,8 +25,8 @@ function App() {
           <a href="#education" onClick={() => setMenuOpen(false)}>Education</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
 
-          <a href="/Aman_Kumar_Rai_resume.pdf" target="_blank">View Resume</a>
-          <a href="/Aman_Kumar_Rai_resume.pdf" download className="resume-btn">Download Resume</a>
+          <a href="/Aman_Resume.pdf" target="_blank">View Resume</a>
+          <a href="/Aman_Resume.pdf" download className="resume-btn">Download Resume</a>
         </div>
       </nav>
 
@@ -55,7 +55,7 @@ function App() {
       </a>
 
       <a
-        href="/Aman_Kumar_Rai_resume.pdf"
+        href="/Aman_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="btn secondary"
